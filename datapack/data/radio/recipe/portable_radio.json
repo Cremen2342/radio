@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "ICI",
+    "IRI"
+  ],
+  "key": {
+    "L": "minecraft:lightning_rod",
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:copper_ingot",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "radio": "portable"
+      },
+      "minecraft:item_name": {
+        "text": "Портативная рация",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "ПКМ: включить / выключить",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Shift + ПКМ: меню настройки частоты",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Работает только с медным шлемом на голове",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "radio:portable_radio",
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:consumable": {
+        "consume_seconds": 1000000,
+        "animation": "none",
+        "has_consume_particles": false
+      }
+    }
+  }
+}

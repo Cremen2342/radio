@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "has_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "radio:portable_radio",
+      "radio:station_radio"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:echo_shard"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "radio:portable/use"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jukebox",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "radio": "station"
+                },
+                "minecraft:item_name": {
+                  "text": "Радиостанция",
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Поставьте 5 громоотводов столбом на верхнюю грань",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Частота: ПКМ пустой рукой (меню) или редстоун:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "медная лампа рядом = +1, окисленная = -1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Радиус действия: 6 блоков",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "radio:station_radio",
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
